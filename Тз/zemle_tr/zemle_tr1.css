@@ -1,0 +1,133 @@
+*{margin: 0; padding: 0;}
+:root{
+    --text-colore:black ;
+}
+/*делаем шапку*/
+.title{
+position: fixed;
+box-shadow: 0 1px rgba(0, 0, 0, 0.385);
+display: flex;
+background-color: white;
+}
+.title2{
+padding-top: 15px;
+padding-left: 10px;
+padding-right: auto;
+font-size: large;
+}
+.name{
+    text-decoration: none;
+    color: var(--text-colore);
+    transition: 0.7s;
+}
+.name:hover{
+    color: rgb(156, 0, 0);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.title3{
+padding-top: 20px;
+padding-left: 100px;
+padding-right: auto; 
+font-size: small;
+width: 100px;
+}
+.title4{
+padding-top: 20px;
+padding-left: 100px;
+padding-right: auto;
+font-size: small;
+width: 100px;
+}
+.title5{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: auto;
+    font-size: small;
+    width: 100px;
+    }
+.name2{
+    text-decoration: none;
+    color: var(--text-colore);
+    transition: 0.7s;
+}
+.name2:hover{
+    color: rgb(156, 0, 0);
+    transition: 0.7s;
+    cursor: pointer;
+}
+.nontitle{
+    background-size: 50px;
+}
+/*Делаем карту*/
+h2 {
+    margin-top: 1rem;
+    margin-left: 30px;
+  }
+  #map {
+    height: 50vh;
+    width: 92%;
+    margin-left: 30px;
+  }
+  /*картинки*/
+  .map_img{
+    position: absolute;
+    display: flex;
+    margin-top:20px;
+    margin-left: 10px;
+    width: 570px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+  }
+  #add_button{
+    color: white;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    margin-top: 190px;
+    margin-left: 500px;
+    position: absolute;
+    display: flex;
+    z-index: 1000;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition:0.7s
+  }
+  #add_button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition:0.7s
+  }
+  #add_button1{
+    color: white;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    margin-top: 190px;
+    margin-left: 30px;
+    position: absolute;
+    display: flex; 
+    z-index: 1000;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition:0.7s
+  }
+  #add_button1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition:0.7s ;
+  }
+  .visable:hover .left:hover ~ .right {
+    opacity: 0.7;
+  }
+  .visable:hover .right:hover ~ .left,
+  .visable:hover .left:not(:hover):has(~ .right:hover) {
+    opacity: 0.7;
+  }

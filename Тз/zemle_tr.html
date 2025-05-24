@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Стихийные бедствия</title>
+        <link rel="stylesheet" href="zemle_tr/zemle_tr1.css">
+        <script type="" src="zemle_tr/zemle_tr1.js" defer></script>
+        <script type="" src="server/zemle_tr1_sms.js"></script>
+        <title>Мониторинг Землетрясений</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    </head>
+<body id="second_main">
+    <!--Шапка-->
+    <header class="title" style="width: 100%; height: 50px;">
+        <div class="title2">
+            <a href="file:///C:/Users/Lenovo/Documents/Тз/zemle_tr.html" class="name">ActofGod.kg</a>
+        </div>
+        <div class="title3">
+            <a href="file:///C:/Users/Lenovo/Documents/Тз/pogoda.html" class="name2">Главная</a>
+        </div>
+        <div class="title4">
+            <a href="lavina.html" class="name2">Снежные лавины</a>
+        </div>
+        <div class="title5">
+            <a href="seli.html" class="name2">Селевые потоки</a>
+        </div>
+    </header>
+    
+    <div style="width: 100%; height: 50px;"></div>
+    
+    <footer style="height: 617px; width: 100%; display: flex;">
+    <!--картинки-->
+        <div style="height: 617px; width: 800px; display: flex;">
+  <div class="map_img">
+    <img id="my_img" src="img/img1.1.jpg" alt="non" style="height:380px; width: 550px; margin: auto;">
+  </div>
+  <div class="visable" style="height:380px; width: 600px;">
+  <button id="add_button1" class="left" ><</button>
+  <button id="add_button" class="right">></button>
+  </div>
+         </div>
+<!--конец картинки-->
+<!--Интерактивная карта-->
+<div style="display: flex; height: 617px; width: 1px; box-shadow: 0 0 2px 0   rgba(0, 0, 0, 0.385);"></div>
+    <div style="height: 617px; width: 850px;">
+    <h2>🌍 Мониторинг землетрясений в реальном времени</h2>
+  <div id="map"></div>  
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js" style="display: flex;"></script>
+</div>
+</footer>
+</body>
+</html>
